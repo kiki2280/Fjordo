@@ -20,14 +20,14 @@
             
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="main">
+    <main id="main" class="main" >
         <section class="welcome  ">
             <div class="container">
                 <h2 class="welcone__heading">This is Velocity</h2>
@@ -39,7 +39,7 @@
             </div>
         </section>
 
-        <section class="about common-section ">
+        <section class="about common-section  ">
             <div class="container">
                 <div class="title-wrapper">
                     <h3 class="title">what we do</h3>
@@ -124,13 +124,35 @@
                             </p>
                         </div>
                     </div>
+                    <div class="tabs__item">
+                        <img src="./img/tab2.jpg" alt="">
+                        <h4>Some Title Here2</h4>
+                        <div class="tabs__desc">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tabs__item">
+                        <img src="./img/tab3.jpg" alt="">
+                        <h4>Some Title Here3</h4>
+                        <div class="tabs__desc">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="footer ">
+    <footer id="footer" class="footer ">
         <div class="footer__desc">
                 <div class="container footer__desc-container">
 
@@ -167,11 +189,13 @@
 
         <div class="footer__copy ">
             <div class="container">
-                <p>Copyright Velocity Inc. Made in Webflow.</p>
+                <p></p>
             </div>
         </div>
     </footer>
 
+<!-- подключение JS -->
+    <script src="script.js"></script>
 </body>
 </html>
 

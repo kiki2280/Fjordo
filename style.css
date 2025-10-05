@@ -421,12 +421,12 @@ p {
     width: calc(100% - 31px);/* отступ нижнего подчёркивания от иконок  */
 }
 
-.footer__social img {
-    margin-top: 5px;
+.footer__social svg {
+    margin-top: 3px;
     margin-right: 10px;
 }
 
-.footer__social img {
+.footer__social svg {
     width: 20px;
     height: 20px;
     object-fit: contain;
